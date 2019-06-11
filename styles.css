@@ -40,6 +40,12 @@ footer [href] {
     }
 }
 
+@media (max-width: 551px) {
+    .hidePrintBtnMobile {
+        display: none !important;
+    }
+}
+
 /* about me picture */
 #myPic {
     width: 170px;
@@ -144,5 +150,16 @@ hr {
     margin-top: 15px;
     margin-bottom: 50px;
 }
+
+@media print {
+    .noPrint {
+        display: none !important;
+    }
+
+    a {
+        text-decoration: none !important;
+    }
+}
+
 
 
