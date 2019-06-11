@@ -2,6 +2,7 @@
 body {
     background-color: #867A6D;
     font-family: monospace;
+    height: 100%;
 }
 
 footer {
@@ -44,6 +45,11 @@ footer [href] {
 @media (max-width: 551px) {
     .hidePrintBtnMobile {
         display: none !important;
+    }
+    .hiddenDivMobile {
+        display: block;
+        height: 100px;
+        width: 100%;
     }
 }
 
