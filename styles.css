@@ -84,6 +84,7 @@ i:hover {
     margin-bottom: 2px;
     margin-right: 1px;
     margin-left: 1px;
+    background-color:#aaa296;
 }
 
 #second {
@@ -92,6 +93,7 @@ i:hover {
     margin-bottom: 2px;
     margin-right: 1px;
     margin-left: 1px;
+    background-color:#aaa296;
 }
 
 #third {
@@ -100,12 +102,13 @@ i:hover {
     margin-bottom: 2px;
     margin-right: 1px;
     margin-left: 1px;
+    background-color:#aaa296;
 }
 
 /* resume page div */
 #resumeDiv {
     width: 90%;
-    height: 500px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -132,6 +135,14 @@ hr {
 .resumeEdu {
     font-style: italic;
     font-size: 16px;
+}
+
+#resumeBtn {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
 }
 
 
