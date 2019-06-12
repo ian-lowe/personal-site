@@ -21,7 +21,7 @@ footer [href] {
 
 
 /* sets custom min-width for bootstrap navbar */
-@media (min-width: 550px){
+@media (min-width: 667px){
     .navbar-expand-custom {
         flex-direction: row;
         flex-wrap: nowrap;
@@ -42,7 +42,7 @@ footer [href] {
     }
 }
 
-@media (max-width: 551px) {
+@media (max-width: 668px) {
     .hidePrintBtnMobile {
         display: none !important;
     }
