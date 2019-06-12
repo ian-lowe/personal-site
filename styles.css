@@ -42,10 +42,16 @@ footer [href] {
     }
 }
 
+/* hides large screen resume header on small screens */
 @media (max-width: 668px) {
     .hideMobile {
         display: none !important;
     }
+
+    /* 
+    invisible div at bottom of screen to replace
+    button space on small screens
+     */
     .hiddenDivMobile {
         display: block;
         height: 100px;
@@ -53,9 +59,15 @@ footer [href] {
     }
 }
 
+/* hides small screen resume header on large screens */
 @media (min-width: 669px) {
-    .smallScreenResHead {
+    .hideLarge {
         display: none !important;
+    }
+    .largeDate {
+        float: right;
+        margin-top: 5px;
+        font-size: 14px;
     }
 }
 
@@ -79,6 +91,7 @@ footer [href] {
 
 }
 
+/* box surrounding my picture */
 #pictureBox {
     height: 180px;
     width: 180px;
@@ -136,6 +149,7 @@ i:hover {
     border: 1px solid black;
 }
 
+/* general styling for links */
 [href] {
     color: #202529;
 }
@@ -144,6 +158,7 @@ i:hover {
     color: #cccdcf;
 }
 
+
 hr {
     border: 0;
     height: 0;
@@ -151,11 +166,13 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+
 .resumeEdu {
     font-style: italic;
     font-size: 16px;
 }
 
+/* print resume button positioning */
 #resumeBtn {
     display: block;
     margin-right: auto;
@@ -164,6 +181,7 @@ hr {
     margin-bottom: 50px;
 }
 
+/* prepare resume for print */
 @media print {
     .noPrint {
         display: none !important;
