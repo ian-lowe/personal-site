@@ -43,7 +43,7 @@ footer [href] {
 }
 
 /* hides large screen resume header on small screens */
-@media (max-width: 668px) {
+@media (max-width: 667px) {
     .hideMobile {
         display: none !important;
     }
@@ -60,14 +60,9 @@ footer [href] {
 }
 
 /* hides small screen resume header on large screens */
-@media (min-width: 669px) {
+@media (min-width: 668px) {
     .hideLarge {
         display: none !important;
-    }
-    .largeDate {
-        float: right;
-        margin-top: 5px;
-        font-size: 14px;
     }
 }
 
