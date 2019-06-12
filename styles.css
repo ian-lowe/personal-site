@@ -43,13 +43,19 @@ footer [href] {
 }
 
 @media (max-width: 668px) {
-    .hidePrintBtnMobile {
+    .hideMobile {
         display: none !important;
     }
     .hiddenDivMobile {
         display: block;
         height: 100px;
         width: 100%;
+    }
+}
+
+@media (min-width: 669px) {
+    .smallScreenResHead {
+        display: none !important;
     }
 }
 
