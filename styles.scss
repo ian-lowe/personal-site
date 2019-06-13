@@ -8,6 +8,7 @@ body {
     background-color: #867A6D;
     font-family: monospace;
     height: 100%;
+    padding-top: 70px
 }
 
 footer {
@@ -77,8 +78,6 @@ footer [href] {
     width: inherit;
     background-color: #403A34;
     margin-bottom: 10px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
     display: flex;
 }
 
@@ -87,7 +86,7 @@ footer [href] {
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    margin: 5px;
+    margin: 10px 5px 5px 5px;
     border: 1px solid black;
 }
 
@@ -112,9 +111,7 @@ i:hover {
 .aboutPgColum {
     border: 1px solid black;
     height: auto;
-    margin-bottom: 2px;
-    margin-right: 1px;
-    margin-left: 1px;
+    margin: 10px 1px 2px 1px;
     background-color: $textBox;
 }
 
