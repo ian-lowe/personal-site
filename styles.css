@@ -1,227 +1,230 @@
-
 body {
-    background-color: #867A6D;
-    font-family: monospace;
-    height: 100%;
+  background-color: #867A6D;
+  font-family: monospace;
+  height: 100%;
 }
 
 footer {
-    background-color: #343A40;
-    color: #999c9f;
-    width: 100%;
-    bottom: 0;
-    padding-left: 20px;
-    margin-top: 20px;
-    position: fixed;
+  background-color: #343A40;
+  color: #999c9f;
+  width: 100%;
+  bottom: 0;
+  padding-left: 20px;
+  margin-top: 20px;
+  position: fixed;
 }
 
 footer [href] {
-    color: #999c9f;
+  color: #999c9f;
 }
 
-
 /* sets custom min-width for bootstrap navbar */
-@media (min-width: 667px){
-    .navbar-expand-custom {
-        flex-direction: row;
+@media (min-width: 667px) {
+  .navbar-expand-custom {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-        justify-content: flex-start;
-    }
-    .navbar-expand-custom .navbar-nav {
-        flex-direction: row;
-    }
-    .navbar-expand-custom .navbar-nav .nav-link {
-        padding-right: .5rem;
-        padding-left: .5rem;
-    }
-    .navbar-expand-custom .navbar-collapse {
-        display: flex!important;
-    }
-    .navbar-expand-custom .navbar-toggler {
-        display: none;
-    }
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .navbar-expand-custom .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .navbar-expand-custom .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+  }
+  .navbar-expand-custom .navbar-collapse {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .navbar-expand-custom .navbar-toggler {
+    display: none;
+  }
 }
 
 /* hides large screen resume header on small screens */
 @media (max-width: 667px) {
-    .hideMobile {
-        display: none !important;
-    }
-
-    /* 
+  .hideMobile {
+    display: none !important;
+  }
+  /* 
     invisible div at bottom of screen to replace
     button space on small screens
      */
-    .hiddenDivMobile {
-        display: block;
-        height: 100px;
-        width: 100%;
-    }
+  .hiddenDivMobile {
+    display: block;
+    height: 100px;
+    width: 100%;
+  }
 }
 
 /* hides small screen resume header on large screens */
 @media (min-width: 668px) {
-    .hideLarge {
-        display: none !important;
-    }
+  .hideLarge {
+    display: none !important;
+  }
 }
 
 /* div that contains my picture */
 .headerBox {
-    height: auto;
-    width: inherit;
-    background-color: #403A34;
-    margin-bottom: 10px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    display: flex;
+  height: auto;
+  width: inherit;
+  background-color: #403A34;
+  margin-bottom: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 /* about me picture */
 #myPic {
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    margin: 5px;
-    border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin: 5px;
+  border: 1px solid black;
 }
 
 #myName {
-    margin-top: 20px;
-    margin-left: 10px;
-    color: #cccdcf;
-    font-size: 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: #cccdcf;
+  font-size: 30px;
 }
 
 /* social media buttons */
 i {
-    color: #999c9f;
-    margin: 2px;
+  color: #999c9f;
+  margin: 2px;
 }
 
 i:hover {
-    color: #cccdcf;
+  color: #cccdcf;
 }
 
 /* about page columns */
 .aboutPgColum {
-    border: 1px solid black;
-    height: auto;
-    margin-bottom: 2px;
-    margin-right: 1px;
-    margin-left: 1px;
-    background-color:#aaa296;
+  border: 1px solid black;
+  height: auto;
+  margin-bottom: 2px;
+  margin-right: 1px;
+  margin-left: 1px;
+  background-color: #aaa296;
 }
 
 .familyPhotos {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 /* resume page div */
 .boxContainer {
-    width: 90%;
-    height: auto;
-    min-height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    padding: 15px;
-    background-color: #aaa296;
-    border: 1px solid black;
+  width: 90%;
+  height: auto;
+  min-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #aaa296;
+  border: 1px solid black;
 }
 
 /* general styling for links */
 [href] {
-    color: #202529;
+  color: #202529;
 }
 
 [href]:hover {
-    color: #cccdcf;
+  color: #cccdcf;
 }
-
 
 hr {
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-
 .resumeEdu {
-    font-style: italic;
-    font-size: 16px;
+  font-style: italic;
+  font-size: 16px;
 }
 
 /* print resume button positioning */
 #resumeBtn {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 15px;
-    margin-bottom: 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-bottom: 50px;
 }
 
 /* prepare resume for print */
 @media print {
-    .noPrint {
-        display: none !important;
-    }
-
-    a {
-        text-decoration: none !important;
-    }
+  .noPrint {
+    display: none !important;
+  }
+  a {
+    text-decoration: none !important;
+  }
 }
 
 .blogDates {
-    text-decoration: underline;
-    margin-bottom: 30px;
+  text-decoration: underline;
+  margin-bottom: 30px;
 }
 
 .blogHeader {
-    display: flex;
-    margin-top: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 7px;
 }
 
 .blogLinks {
-    margin: auto;
-    margin-bottom: 11px;
+  margin: auto;
+  margin-bottom: 11px;
 }
 
 .blogLinks a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .boxContainer img {
-    max-width: 50%;
-    border: 1px solid black;
-    margin-bottom: 20px;
+  max-width: 50%;
+  border: 1px solid black;
+  margin-bottom: 20px;
 }
 
-th, td{
-    border: 1px solid black;
-    padding: 5px;
+th, td {
+  border: 1px solid black;
+  padding: 5px;
 }
 
 .portfolioProj {
-    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .portfolioLink {
-    margin-left: 30px;
-    text-decoration: underline;
+  margin-left: 30px;
+  text-decoration: underline;
 }
 
 .projectDesc {
-   max-width: 50%;
+  max-width: 50%;
 }
-
-
-
-
-
-
-
-
-
+/*# sourceMappingURL=styles.css.map */
