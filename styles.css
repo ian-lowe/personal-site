@@ -176,6 +176,7 @@ hr {
 
 .blogDates {
     text-decoration: underline;
+    margin-bottom: 30px;
 }
 
 .blogHeader {
@@ -192,6 +193,17 @@ hr {
     text-decoration: underline;
 }
 
+.boxContainer img {
+    max-width: 50%;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
 .portfolioProj {
     display: flex;
 }
@@ -204,6 +216,10 @@ hr {
 .projectDesc {
    max-width: 50%;
 }
+
+
+
+
 
 
 
