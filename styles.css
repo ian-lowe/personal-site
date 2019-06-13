@@ -66,15 +66,6 @@ footer [href] {
     }
 }
 
-/* about me picture */
-#myPic {
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    margin: 5px;
-    border: 1px solid black;
-}
-
 /* div that contains my picture */
 .headerBox {
     height: auto;
@@ -86,12 +77,20 @@ footer [href] {
     display: flex;
 }
 
+/* about me picture */
+#myPic {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 5px;
+    border: 1px solid black;
+}
+
 #myName {
     margin-top: 20px;
-    color: white;
+    margin-left: 10px;
+    color: #cccdcf;
     font-size: 30px;
-    margin: auto;
-    
 }
 
 /* social media buttons */
@@ -107,17 +106,23 @@ i:hover {
 /* about page columns */
 .aboutPgColum {
     border: 1px solid black;
-    height: 100px;
+    height: auto;
     margin-bottom: 2px;
     margin-right: 1px;
     margin-left: 1px;
     background-color:#aaa296;
 }
 
+.familyPhotos {
+    max-width: 100%;
+    height: auto;
+}
+
 /* resume page div */
-#resumeDiv {
+.boxContainer {
     width: 90%;
-    height: 600px;
+    height: auto;
+    min-height: 400px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -168,6 +173,39 @@ hr {
         text-decoration: none !important;
     }
 }
+
+.blogDates {
+    text-decoration: underline;
+}
+
+.blogHeader {
+    display: flex;
+    margin-top: 7px;
+}
+
+.blogLinks {
+    margin: auto;
+    margin-bottom: 11px;
+}
+
+.blogLinks a {
+    text-decoration: underline;
+}
+
+.portfolioProj {
+    display: flex;
+}
+
+.portfolioLink {
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+.projectDesc {
+   max-width: 50%;
+}
+
+
 
 
 
