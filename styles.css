@@ -86,8 +86,7 @@ footer [href] {
   display: flex;
 }
 
-/* about me picture */
-#myPic {
+.headerBox img {
   width: 150px;
   height: 150px;
   border-radius: 100%;
@@ -95,14 +94,18 @@ footer [href] {
   border: 1px solid black;
 }
 
-#myName {
+.headerBox .myName {
   margin-top: 20px;
   margin-left: 10px;
   color: #cccdcf;
   font-size: 30px;
 }
 
-/* social media buttons */
+.aboutParas {
+  font-size: 16px;
+}
+
+/* social media button styling*/
 i {
   color: #999c9f;
   margin: 2px;
@@ -120,19 +123,12 @@ i:hover {
   background-color: #aaa296;
 }
 
-.familyPhotos {
-  max-width: 100%;
-  height: auto;
-}
-
-/* resume page div */
+/* box for resume/portfolio/blog pages */
 .boxContainer {
   width: 90%;
   height: auto;
   min-height: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
+  margin: 10px auto 0 auto;
   padding: 15px;
   background-color: #aaa296;
   border: 1px solid black;
@@ -147,11 +143,18 @@ i:hover {
   color: #cccdcf;
 }
 
-hr {
+.lowHr, .topHr {
   border: 0;
   height: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.lowHr {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.topHr {
+  border-top: 1px solid black;
 }
 
 .resumeEdu {
@@ -162,10 +165,7 @@ hr {
 /* print resume button positioning */
 #resumeBtn {
   display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 15px;
-  margin-bottom: 50px;
+  margin: 15px auto 50px auto;
 }
 
 /* prepare resume for print */
@@ -181,6 +181,10 @@ hr {
 .blogDates {
   text-decoration: underline;
   margin-bottom: 30px;
+}
+
+.anchor {
+  padding-top: 70px;
 }
 
 .blogHeader {

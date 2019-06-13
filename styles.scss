@@ -3,14 +3,15 @@ $link: #999c9f;
 $linkHover: #cccdcf;
 $textBox: #aaa296;
 
-
 body {
     background-color: #867A6D;
     font-family: monospace;
     height: 100%;
+    // padding neccessary for fixed nav bar
     padding-top: 70px
 }
 
+// fixed footer
 footer {
     background-color: #343A40;
     color: $link;
@@ -21,6 +22,7 @@ footer {
     position: fixed;
 }
 
+// footer link styling
 footer [href] {
     color: $link;
 }
@@ -79,25 +81,30 @@ footer [href] {
     background-color: #403A34;
     margin-bottom: 10px;
     display: flex;
+
+    // styling for my picture
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        margin: 10px 5px 5px 5px;
+        border: 1px solid black;
+    }
+
+    // styling for the header of my about page
+    .myName {
+        margin-top: 20px;
+        margin-left: 10px;
+        color: $linkHover;
+        font-size: 30px;
+    }
 }
 
-/* about me picture */
-#myPic {
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    margin: 10px 5px 5px 5px;
-    border: 1px solid black;
+.aboutParas {
+    font-size: 16px;
 }
 
-#myName {
-    margin-top: 20px;
-    margin-left: 10px;
-    color: $linkHover;
-    font-size: 30px;
-}
-
-/* social media buttons */
+/* social media button styling*/
 i {
     color: $link;
     margin: 2px;
@@ -115,19 +122,12 @@ i:hover {
     background-color: $textBox;
 }
 
-.familyPhotos {
-    max-width: 100%;
-    height: auto;
-}
-
-/* resume page div */
+/* box for resume/portfolio/blog pages */
 .boxContainer {
     width: 90%;
     height: auto;
     min-height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+    margin: 10px auto 0 auto;
     padding: 15px;
     background-color: $textBox;
     border: 1px solid black;
@@ -142,27 +142,33 @@ i:hover {
     color: $linkHover;
 }
 
-
-hr {
+%hrStyling {
     border: 0;
     height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.lowHr {
+    @extend %hrStyling;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
 
+.topHr {
+    @extend %hrStyling;
+    border-top: 1px solid rgba(0, 0, 0, 1);
+}
+
+// resume pg text styling
 .resumeEdu {
     font-style: italic;
     font-size: 16px;
 }
 
+
 /* print resume button positioning */
 #resumeBtn {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 15px;
-    margin-bottom: 50px;
+    margin: 15px auto 50px auto;
 }
 
 /* prepare resume for print */
@@ -176,9 +182,14 @@ hr {
     }
 }
 
+// styling and formatting for blog page
 .blogDates {
     text-decoration: underline;
     margin-bottom: 30px;
+}
+
+.anchor {
+    padding-top: 70px;
 }
 
 .blogHeader {
@@ -206,6 +217,7 @@ th, td{
     padding: 5px;
 }
 
+// style and formatting for portfolio page
 .portfolioProj {
     display: flex;
 }
