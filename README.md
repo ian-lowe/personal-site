@@ -1,6 +1,4 @@
-# Project 0
-
-Web Programming with Python and JavaScript
+# Project 0 - Web Programming with Python and JavaScript
 
 I took this opportunity to build a mockup of a portfolio website. My goal was to practice responsive design and become more comfortable with CSS formatting. Some content is Lorem ipsum, but I went about it trying to make something that I might actually use.
 
