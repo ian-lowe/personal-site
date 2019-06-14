@@ -14,4 +14,4 @@ My project includes 4 html files and 1 stylesheet file (not including Bootstrap)
 
 **styles.css** - My main stylesheet for the project.
 
-<center>https://ian-lowe.github.io/project0/</center>
+Link to live project: https://ian-lowe.github.io/project0/
