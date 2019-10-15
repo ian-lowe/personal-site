@@ -22,70 +22,58 @@ footer [href] {
 /* sets custom min-width for bootstrap navbar */
 @media (min-width: 667px) {
   .navbar-expand-custom {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
   }
+
   .navbar-expand-custom .navbar-nav {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
+
   .navbar-expand-custom .navbar-nav .nav-link {
-    padding-right: .5rem;
-    padding-left: .5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
   }
+
   .navbar-expand-custom .navbar-collapse {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
     display: flex !important;
   }
+
   .navbar-expand-custom .navbar-toggler {
     display: none;
   }
 }
-
 /* hides large screen resume header on small screens */
 @media (max-width: 667px) {
   .hideMobile {
     display: none !important;
   }
+
   /* 
-    invisible div at bottom of screen to replace
-    button space on small screens
-     */
+  invisible div at bottom of screen to replace
+  button space on small screens
+   */
   .hiddenDivMobile {
     display: block;
     height: 100px;
     width: 100%;
   }
 }
-
 /* hides small screen resume header on large screens */
 @media (min-width: 668px) {
   .hideLarge {
     display: none !important;
   }
 }
-
 /* div that contains my picture */
 .headerBox {
   height: auto;
   width: inherit;
   background-color: #403A34;
   margin-bottom: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .headerBox img {
   width: 150px;
   height: 150px;
@@ -93,7 +81,6 @@ footer [href] {
   margin: 10px 5px 5px 5px;
   border: 1px solid black;
 }
-
 .headerBox .myName {
   margin-top: 20px;
   margin-left: 10px;
@@ -103,6 +90,7 @@ footer [href] {
 
 .aboutParas {
   font-size: 16px;
+  margin-top: 30px;
 }
 
 /* social media button styling*/
@@ -143,7 +131,7 @@ i:hover {
   color: #cccdcf;
 }
 
-.lowHr, .topHr {
+.topHr, .lowHr {
   border: 0;
   height: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -173,11 +161,11 @@ i:hover {
   .noPrint {
     display: none !important;
   }
+
   a {
     text-decoration: none !important;
   }
 }
-
 .blogDates {
   text-decoration: underline;
   margin-bottom: 30px;
@@ -188,8 +176,6 @@ i:hover {
 }
 
 .blogHeader {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 7px;
 }
@@ -209,14 +195,21 @@ i:hover {
   margin-bottom: 20px;
 }
 
+.blogPara1 {
+  margin-top: 30px;
+}
+
+.blogSpan {
+  margin-left: 20px;
+  font-size: 16px;
+}
+
 th, td {
   border: 1px solid black;
   padding: 5px;
 }
 
 .portfolioProj {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -228,4 +221,40 @@ th, td {
 .projectDesc {
   max-width: 50%;
 }
+
+.indexBody {
+  padding-top: 51px;
+}
+
+.container h5 {
+  padding-top: 10px;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.zeroMargin {
+  margin: 0;
+}
+
+.largerFont {
+  font-size: 18px;
+}
+
+.floatRight {
+  float: right;
+}
+
+.collegeName {
+  float: right;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.emptyDiv {
+  height: 100px;
+  width: 100%;
+}
+
 /*# sourceMappingURL=styles.css.map */

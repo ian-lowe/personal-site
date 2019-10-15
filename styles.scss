@@ -102,6 +102,7 @@ footer [href] {
 
 .aboutParas {
     font-size: 16px;
+    margin-top: 30px;
 }
 
 /* social media button styling*/
@@ -212,6 +213,15 @@ i:hover {
     margin-bottom: 20px;
 }
 
+.blogPara1 {
+    margin-top:30px;
+}
+
+.blogSpan {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
 th, td{
     border: 1px solid black;
     padding: 5px;
@@ -229,4 +239,45 @@ th, td{
 
 .projectDesc {
    max-width: 50%;
+}
+
+// style and formatting for index page
+
+.indexBody {
+    padding-top: 51px;
+}
+
+.container h5 {
+    padding-top: 10px;
+}
+
+// style and formatting for resume page
+
+.alignCenter {
+    text-align: center;
+}
+
+.zeroMargin {
+ margin: 0;
+}
+
+.largerFont {
+    font-size: 18px;
+}
+
+.floatRight {
+    float: right;
+}
+
+.collegeName {
+    float: right;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+// all pages
+
+.emptyDiv {
+    height: 100px;
+    width: 100%;
 }
