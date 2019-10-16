@@ -74,12 +74,16 @@ footer [href] {
   margin-bottom: 10px;
   display: flex;
 }
-.headerBox img {
+.myImg {
   width: 150px;
   height: 150px;
   border-radius: 100%;
   margin: 10px 5px 5px 5px;
   border: 1px solid black;
+}
+
+.svgbar {
+  display: block;
 }
 .headerBox .myName {
   margin-top: 20px;
