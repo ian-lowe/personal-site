@@ -82,9 +82,6 @@ footer [href] {
   border: 1px solid black;
 }
 
-.svgbar {
-  display: block;
-}
 .headerBox .myName {
   margin-top: 20px;
   margin-left: 10px;
@@ -118,6 +115,7 @@ i:hover {
 /* box for resume/portfolio/blog pages */
 .boxContainer {
   width: 90%;
+  max-width: 900px;
   height: auto;
   min-height: 400px;
   margin: 10px auto 0 auto;
