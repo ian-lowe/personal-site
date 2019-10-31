@@ -216,8 +216,13 @@ th, td {
 }
 
 .portfolioLink {
-  margin-left: 30px;
+  padding-top: 3px;
+  margin-left: 25px;
   text-decoration: underline;
+}
+
+.portfolioLink a {
+  margin-right: 16px;
 }
 
 .projectDesc {
