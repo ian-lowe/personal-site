@@ -43,9 +43,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="blog.html">Blog</a>
-                </li>
+                </li> -->
             </ul>
             <div class="navbar-item">
                 <a href="https://twitter.com/_ianlowe"><i class="fab fa-twitter"></i></a>
@@ -63,21 +63,68 @@
         </div>
 
         <hr class="topHr">
-        <h4 class="alignCenter"><b><u>Skills</u></b></h4>
+        <!-- skills -->
+        <h4><b><u>Skills</u></b></h4>
         <p class="zeroMargin largerFont">Languages:</p>
         <p class="zeroMargin"><b>Proficient: </b>JavaScript/HTML/CSS, Python, C++</p>
         <p><b>Familiar: </b>C, x86 Assembly</p>
         <p class="zeroMargin largerFont">Libraries/Frameworks:</p>
-        <p>Flask, SQLalchemey</p>
+        <p>Flask, SQLalchemey, socketIO, Bootstrap</p>
         <p class="zeroMargin largerFont">Tools/Methodologies:</p>
         <p class="zeroMargin">git, Unix CLI, SCSS, OOP, SQL(Postgresql), Heroku, Mac/Windows</p>
         <hr class="lowHr">
-        <h4 class="alignCenter"><b><u>Education</u></b></h4>
+        <!-- projects -->
+        <h4><b><u>Projects</u></b></h4>
+        <div class="portfolioProj">
+            <h5>Flack</h5>
+            <div class="portfolioLink">
+                <a href="https://chat-flack.herokuapp.com" target="_blank">Link to app</a><a href="https://github.com/ian-lowe/chat" target="_blank">Link to code</a>
+            </div>
+        </div>
+        <div class="projectDesc">
+            <p>Flack is an online messaging service, similar in spirit to Slack. Users are able to sign into the site with a display name, create channels (i.e. chatrooms) to communicate in, as well as see and join existing channels. Once a channel is selected, users are able to send and receive messages with one another in real time.</p>
+
+            <strong>Skills utilized:</strong>
+            <p class="zeroMargin">Javascript, HTML, CSS Grid, Python, Flask, AJAX, websockets, UX/UI design, Heroku</p>
+        </div>
+        <br>
+        <div class="portfolioProj">
+            <h5>Cheers!</h5>
+            <div class="portfolioLink">
+                <a href="https://cheers-fehh.herokuapp.com" target="_blank">Link to app</a><a href="https://github.com/ian-lowe/cheers" target="_blank">Link to code</a>
+            </div>
+        </div>
+        <div class="projectDesc">
+            <p>Single Page Web Application designed to interactively participate in the Front End Happy Hour podcast!</p>
+
+            <strong>Skills utilized:</strong>
+            <p class="zeroMargin">3rd Party API Integration, Javascript/HTML/CSS, Python, Flask, UI/UX design, SVG</p>
+        </div>
+        <br>
+        <div class="portfolioProj">
+            <h5>Book Review</h5>
+            <div class="portfolioLink">
+                <a href="https://bookreviewcentral.herokuapp.com/" target="_blank">Link to app</a><a href="https://github.com/ian-lowe/book-review-central" target="_blank">Link to code</a>
+            </div>
+        </div>
+        <div class="projectDesc">
+            <p>Book review app, focusing on backend techniques such as CRUD on a database, displaying 3rd party API data, and serving JSON data from /api.</p>
+            
+            <strong>Skills utilized:</strong>
+            <p class="zeroMargin">Python, Flask, SQLalchemey, PostgreSQL, JS/HTML/CSS, 3rd Party API Integration, RESTful API creation</p>
+        </div>
+        <hr class="lowHr">
+        <!-- education -->
+        <h4><b><u>Education</u></b></h4>
         <p class="zeroMargin largerFont">Santa Monica College<span class="resumeEdu hideMobile collegeName">2018 - 2019</span></p>
         <p class="zeroMargin"><span class="resumeEdu">Computer Science</span></p>
         <p class="zeroMargin"><span class="resumeEdu">GPA: 4.0</span></p>
         <p class="zeroMargin">Relevant Coursework: </p>
         <p class="zeroMargin">Introduction to Data Structures and Algorithms, C Programming, C++ Programming, Introduction to Assembly Language Programming</p>
+        <br>
+        <p class="zeroMargin largerFont">Berklee College of Music<span class="resumeEdu hideMobile collegeName">2009-2011</span></p>
+        <p class="zeroMargin"><span class="resumeEdu">Music Education</span></p>
+        <p class="zeroMargin"><span class="resumeEdu">GPA: 3.5</span></p>
     </div>
     <button id="resumeBtn" class="noPrint hideMobile"><a href="javascript:window.print();">Print My Resume</a></button>
 

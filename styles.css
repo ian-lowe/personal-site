@@ -78,8 +78,14 @@ footer [href] {
   width: 150px;
   height: 150px;
   border-radius: 100%;
-  margin: 10px 5px 5px 5px;
+  margin: 3px 5px 5px 5px;
   border: 1px solid black;
+}
+
+@media (max-width: 668px) {
+  .myImg {
+    margin-top: 10px;
+  }
 }
 
 .headerBox .myName {
@@ -108,8 +114,9 @@ i:hover {
 .aboutPgColum {
   border: 1px solid black;
   height: auto;
-  margin: 10px 1px 2px 1px;
+  margin: 10px 15px 2px 1px;
   background-color: #aaa296;
+  box-shadow: 4px 4px 0px 0px #343A40;
 }
 
 /* box for resume/portfolio/blog pages */
@@ -122,6 +129,7 @@ i:hover {
   padding: 15px;
   background-color: #aaa296;
   border: 1px solid black;
+  box-shadow: 4px 4px 0px 0px #343A40;
 }
 
 /* general styling for links */
@@ -194,6 +202,10 @@ i:hover {
 .boxContainer img {
   max-width: 50%;
   border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.boxContainer h4 {
   margin-bottom: 20px;
 }
 
