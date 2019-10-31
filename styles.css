@@ -276,4 +276,8 @@ th, td {
   width: 100%;
 }
 
+.subHr {
+  max-width: 200px;
+}
+
 /*# sourceMappingURL=styles.css.map */
