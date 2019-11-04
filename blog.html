@@ -1,119 +1,188 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151191891-1"></script>
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-151191891-1"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'UA-151191891-1');
+      gtag("config", "UA-151191891-1");
     </script>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Blog page for Los Angeles based full stack developer, Ian Lowe."
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Blog page for Los Angeles based full stack developer, Ian Lowe.">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="https://kit.fontawesome.com/f565cb95d6.js"></script>
-    
+
     <title>Ian Lowe - Blog</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <nav class="navbar navbar-expand-custom navbar-dark bg-dark fixed-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="true"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="resume.html">Resume</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <!-- <li class="nav-item active">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <!-- <li class="nav-item active">
                     <a class="nav-link" href="blog.html">Blog</a>
                 </li> -->
-            </ul>
-            <div class="navbar-item">
-                <a href="https://twitter.com/_ianlowe"><i class="fab fa-twitter"></i></a>
-                <a href="https://github.com/ian-lowe"><i class="fab fa-github"></i></a>
-            </div>
+        </ul>
+        <div class="navbar-item">
+          <a href="https://twitter.com/_ianlowe"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://github.com/ian-lowe"
+            ><i class="fab fa-github"></i
+          ></a>
         </div>
+      </div>
     </nav>
 
     <div class="boxContainer">
-        <div class="blogHeader">
-            <h4>My Blog:</h4>
-            <div class="blogLinks">
-                <a href="#post1">06/11</a>
-                <span>|</span>
-                <a href="#post2">06/12</a>
-                <span>|</span>
-                <a href="#post3">06/13</a>
-            </div>
+      <div class="blogHeader">
+        <h4>My Blog:</h4>
+        <div class="blogLinks">
+          <a href="#post1">06/11</a>
+          <span>|</span>
+          <a href="#post2">06/12</a>
+          <span>|</span>
+          <a href="#post3">06/13</a>
         </div>
-        <hr class="topHr">
-        <h6 class="blogDates anchor" id="post3">Thursday, June 13th</h6>
-        <ol>
-            <li>Lorem 1</li>
-            <li>Lorem 2</li>
-            <li>Lorem 3</li>
-        </ol>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, fuga dignissimos. Sit hic nostrum, facere ad veniam, sapiente similique architecto maxime dolores perferendis molestiae culpa praesentium fuga eveniet. Repudiandae, adipisci! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus nobis, amet tenetur accusamus nisi obcaecati ipsa dolore, architecto, pariatur nam incidunt quasi expedita excepturi numquam corrupti necessitatibus! Doloremque, laborum facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem perspiciatis aliquid odio officia eaque quasi sapiente ab ipsam error, architecto maxime suscipit qui libero laudantium mollitia expedita facere, dolores dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repudiandae rerum laudantium minima placeat, vero ducimus assumenda, tempora ut quis delectus quo earum veritatis illum debitis, esse nobis nemo doloremque?</p>
-        <hr class="lowHr">
-        <h6 class="blogDates anchor" id="post2">Wednesday, June 12th</h6>
-        <table>
-            <tr>
-                <th>First</th>
-                <th>Last</th>
-                <th>Phone</th>
-            </tr>
-            <tr>
-                <td>Ian</td>
-                <td>Lowe</td>
-                <td>727-237-8073</td>
-            </tr>
-            <tr>
-                <td>Carl</td>
-                <td>Lowe</td>
-                <td>555-555-5555</td>
-            </tr>
-            <tr>
-                <td>Yoko</td>
-                <td>Lowe</td>
-                <td>111-111-1111</td>
-            </tr>
-        </table>
-        <p class="blogPara1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sequi sapiente mollitia iusto voluptatum repellendus illum tempore sit odit. Doloribus debitis tempore temporibus quam consequatur ipsum mollitia neque odio fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error itaque est consequuntur expedita nesciunt minus provident voluptas eveniet sapiente consequatur. Illum consequatur ad, nesciunt eius quaerat culpa deleniti perferendis harum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor quas dicta soluta sapiente nihil magni dignissimos repellat dolorem excepturi velit. Tempora nihil asperiores dolore nostrum cumque beatae libero inventore quisquam!</p>
-        <hr class="lowHr">
-        <h6 class="blogDates anchor" id="post1">Tuesday, June 11th</h6>
-        <img src="pics/pets.jpg" alt="Carl and Yoko">
-        <span class="blogSpan">Carl and Yoko</span>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus nihil culpa est esse aut sit, nemo facere. Nobis nam, aspernatur beatae delectus vel animi. Repellat, voluptatibus? Ullam maiores ut pariatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sed eius, saepe tenetur, ex distinctio recusandae voluptate et qui aspernatur impedit adipisci numquam tempora accusantium sint illum, quo modi obcaecati? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos officiis ea eos ex illo doloremque, rerum nulla, beatae in voluptatibus commodi, architecto labore veniam rem autem cupiditate tempore consequuntur nihil.</p>
-        
+      </div>
+      <hr class="topHr" />
+      <h6 class="blogDates anchor" id="post3">Thursday, June 13th</h6>
+      <ol>
+        <li>Lorem 1</li>
+        <li>Lorem 2</li>
+        <li>Lorem 3</li>
+      </ol>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, fuga
+        dignissimos. Sit hic nostrum, facere ad veniam, sapiente similique
+        architecto maxime dolores perferendis molestiae culpa praesentium fuga
+        eveniet. Repudiandae, adipisci! Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit. Possimus nobis, amet tenetur accusamus nisi obcaecati
+        ipsa dolore, architecto, pariatur nam incidunt quasi expedita excepturi
+        numquam corrupti necessitatibus! Doloremque, laborum facere. Lorem ipsum
+        dolor sit amet, consectetur adipisicing elit. Dolorem perspiciatis
+        aliquid odio officia eaque quasi sapiente ab ipsam error, architecto
+        maxime suscipit qui libero laudantium mollitia expedita facere, dolores
+        dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+        repudiandae rerum laudantium minima placeat, vero ducimus assumenda,
+        tempora ut quis delectus quo earum veritatis illum debitis, esse nobis
+        nemo doloremque?
+      </p>
+      <hr class="lowHr" />
+      <h6 class="blogDates anchor" id="post2">Wednesday, June 12th</h6>
+      <table>
+        <tr>
+          <th>First</th>
+          <th>Last</th>
+          <th>Phone</th>
+        </tr>
+        <tr>
+          <td>Ian</td>
+          <td>Lowe</td>
+          <td>727-237-8073</td>
+        </tr>
+        <tr>
+          <td>Carl</td>
+          <td>Lowe</td>
+          <td>555-555-5555</td>
+        </tr>
+        <tr>
+          <td>Yoko</td>
+          <td>Lowe</td>
+          <td>111-111-1111</td>
+        </tr>
+      </table>
+
+      <p class="blogPara1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sequi
+        sapiente mollitia iusto voluptatum repellendus illum tempore sit odit.
+        Doloribus debitis tempore temporibus quam consequatur ipsum mollitia
+        neque odio fugit. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Error itaque est consequuntur expedita nesciunt minus provident
+        voluptas eveniet sapiente consequatur. Illum consequatur ad, nesciunt
+        eius quaerat culpa deleniti perferendis harum? Lorem ipsum dolor, sit
+        amet consectetur adipisicing elit. Dolor quas dicta soluta sapiente
+        nihil magni dignissimos repellat dolorem excepturi velit. Tempora nihil
+        asperiores dolore nostrum cumque beatae libero inventore quisquam!
+      </p>
+      <hr class="lowHr" />
+      <h6 class="blogDates anchor" id="post1">Tuesday, June 11th</h6>
+      <img src="pics/pets.jpg" alt="Carl and Yoko" />
+      <span class="blogSpan">Carl and Yoko</span>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus
+        nihil culpa est esse aut sit, nemo facere. Nobis nam, aspernatur beatae
+        delectus vel animi. Repellat, voluptatibus? Ullam maiores ut pariatur?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sed eius,
+        saepe tenetur, ex distinctio recusandae voluptate et qui aspernatur
+        impedit adipisci numquam tempora accusantium sint illum, quo modi
+        obcaecati? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Dignissimos officiis ea eos ex illo doloremque, rerum nulla, beatae in
+        voluptatibus commodi, architecto labore veniam rem autem cupiditate
+        tempore consequuntur nihil.
+      </p>
     </div>
-    
+
     <div class="emptyDiv"></div>
 
     <footer>email: <a href="mailto:ilowe@mac.com">ilowe@mac.com</a></footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

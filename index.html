@@ -1,105 +1,159 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151191891-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-151191891-1"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-151191891-1');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-151191891-1");
     </script>
 
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Personal website for Los Angeles based full stack developer, Ian Lowe.">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Personal website for Los Angeles based full stack developer, Ian Lowe."
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="https://kit.fontawesome.com/f565cb95d6.js"></script>
 
     <title>Ian Lowe - About Me</title>
-</head>
+  </head>
 
-<body class="indexBody">
-    <!-- navbar -->
+  <body class="indexBody">
     <nav class="navbar navbar-expand-custom navbar-dark bg-dark fixed-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="resume.html">Resume</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <!-- <li class="nav-item">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <!-- <li class="nav-item">
                     <a class="nav-link" href="blog.html">Blog</a>
                 </li> -->
-            </ul>
-            <div class="navbar-item">
-                <a href="https://twitter.com/_ianlowe"><i class="fab fa-twitter"></i></a>
-                <a href="https://github.com/ian-lowe"><i class="fab fa-github"></i></a>
-            </div>
+        </ul>
+        <div class="navbar-item">
+          <a href="https://twitter.com/_ianlowe"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://github.com/ian-lowe"
+            ><i class="fab fa-github"></i
+          ></a>
         </div>
+      </div>
     </nav>
-
-    <!-- about page begin -->
-
-
     <div class="headerBox">
-        <!-- div that contains my picture -->
-        <div id="pictureBox">
-            <img src="pics/me.jpg" alt="a headshot of the page's author" class="myImg">
-        </div>
-        <div class="myName">
-            <p>Ian Lowe</p>
-            <p class="aboutParas">husband, dog dad, and aspring full-stack developer</p>
-        </div>
+      <div id="pictureBox">
+        <img
+          src="pics/me.jpg"
+          alt="a headshot of the page's author"
+          class="myImg"
+        />
+      </div>
+      <div class="myName">
+        <p>Ian Lowe</p>
+        <p class="aboutParas">
+          husband, dog dad, and aspring full-stack developer
+        </p>
+      </div>
     </div>
-
-    <!-- page columns -->
     <div class="container">
-        <div class="row">
-            <div class="col-lg aboutPgColum">
-                <h5>Hello!</h5>
-                <p class="aboutParas">
-                    My name is Ian. I am an aspiring full-stack developer living in Los Angeles, looking for my first job in the industry. I am passionate about learning, love solving problems, and am eager and willing to learn any tech stack.
-                </p>
-                <p class="aboutParas">
-                    Relevant information about my skills and projects are avaible through this website, or if you would prefer, feel free to take a look through one of these links:
-                    <ul>
-                        <li><a href="https://github.com/ian-lowe">Github</a></li>
-                        <li><a href="https://www.linkedin.com/in/ian-lowe-18b163180/">LinkedIn</a></li>
-                        <li><a href="https://angel.co/ian-lowe-5?public_profile=1">AngelList</a></li>
-                    </ul>
-                </p>
-            </div>
-            <div class="col-lg aboutPgColum">
-                <h5>A little 0 about me..</h5>
-                <p class="aboutParas">
-                    I have a background in the hospitality industry where I earned my level one pin from the Court of Master Sommeliers, and was part of the opening team who helped the restaurant Vespertine to achieve the number one restaurant on the late Jonathan Gold's 101 list. While studying programming, I have also been helping to grow my wife's business Fawn Lettering - a wedding calligraphy and invitation studio which exceeded six figures in sales during its first year of operation.
-                </p>
-            </div>
+      <div class="row">
+        <div class="col-lg aboutPgColum">
+          <h5>Hello!</h5>
+          <p class="aboutParas">
+            My name is Ian. I am an aspiring full-stack developer living in Los
+            Angeles, looking for my first job in the industry. I am passionate
+            about learning, love solving problems, and am eager and willing to
+            learn any tech stack.
+          </p>
+          <p class="aboutParas">
+            Relevant information about my skills and projects are avaible
+            through this website, or if you would prefer, feel free to take a
+            look through one of these links:
+          </p>
+          <ul>
+            <li><a href="https://github.com/ian-lowe">Github</a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/ian-lowe-18b163180/"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://angel.co/ian-lowe-5?public_profile=1"
+                >AngelList</a
+              >
+            </li>
+          </ul>
         </div>
+        <div class="col-lg aboutPgColum">
+          <h5>A little 0 about me..</h5>
+          <p class="aboutParas">
+            I have a background in the hospitality industry where I earned my
+            level one pin from the Court of Master Sommeliers, and was part of
+            the opening team who helped the restaurant Vespertine to achieve the
+            number one restaurant on the late Jonathan Gold's 101 list. While
+            studying programming, I have also been helping to grow my wife's
+            business Fawn Lettering - a wedding calligraphy and invitation
+            studio which exceeded six figures in sales during its first year of
+            operation.
+          </p>
+        </div>
+      </div>
     </div>
 
     <div class="hiddenDivMobile"></div>
 
     <footer>email: <a href="mailto:ilowe@mac.com">ilowe@mac.com</a></footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

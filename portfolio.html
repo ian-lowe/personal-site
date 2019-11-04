@@ -1,131 +1,196 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151191891-1"></script>
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-151191891-1"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'UA-151191891-1');
+      gtag("config", "UA-151191891-1");
     </script>
-
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Portfolio page site for Los Angeles based full stack developer, Ian Lowe.">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Portfolio page site for Los Angeles based full stack developer, Ian Lowe."
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <script src="https://kit.fontawesome.com/f565cb95d6.js"></script>
 
     <title>Ian Lowe - Portfolio</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <nav class="navbar navbar-expand-custom navbar-dark bg-dark fixed-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="true"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="resume.html">Resume</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <!-- <li class="nav-item">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <!-- <li class="nav-item">
                     <a class="nav-link" href="blog.html">Blog</a>
                 </li> -->
-            </ul>
-            <div class="navbar-item">
-                <a href="https://twitter.com/_ianlowe"><i class="fab fa-twitter"></i></a>
-                <a href="https://github.com/ian-lowe"><i class="fab fa-github"></i></a>
-            </div>
+        </ul>
+        <div class="navbar-item">
+          <a href="https://twitter.com/_ianlowe"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://github.com/ian-lowe"
+            ><i class="fab fa-github"></i
+          ></a>
         </div>
+      </div>
     </nav>
 
     <div class="boxContainer">
-        <h4>My Work:</h4>
-        <hr class="topHr">
-        <div class="portfolioProj">
-            <h5><strong>Flack</strong></h5>
-            <div class="portfolioLink">
-                <a href="https://chat-flack.herokuapp.com" target="_blank">Link to app</a><a href="https://github.com/ian-lowe/chat" target="_blank">Link to code</a>
-            </div>
+      <h4>My Work:</h4>
+      <hr class="topHr" />
+      <div class="portfolioProj">
+        <h5><strong>Flack</strong></h5>
+        <div class="portfolioLink">
+          <a href="https://chat-flack.herokuapp.com" target="_blank"
+            >Link to app</a
+          ><a href="https://github.com/ian-lowe/chat" target="_blank"
+            >Link to code</a
+          >
         </div>
-        <div class="projectDesc">
-            <p>Flack is an online messaging service, similar in spirit to Slack. Users are able to sign into the site with a display name, create channels (i.e. chatrooms) to communicate in, as well as see and join existing channels. Once a channel is selected, users are able to send and receive messages with one another in real time.</p>
+      </div>
+      <div class="projectDesc">
+        <p>
+          Flack is an online messaging service, similar in spirit to Slack.
+          Users are able to sign into the site with a display name, create
+          channels (i.e. chatrooms) to communicate in, as well as see and join
+          existing channels. Once a channel is selected, users are able to send
+          and receive messages with one another in real time.
+        </p>
 
-            <strong>Challenges and accomplishments:</strong>
-            <ul>
-                <li>real time communication via AJAX and websockets utilizing the Socketio framework in both Python and Javascript</li>
-                <li>displaying proper timezone information based on user location</li>
-                <li>storing messages and channels server side and performantly displaying them</li>
-                <li>responsive styling utilizing CSS Grid</li>
-                <li>deployment to Heroku</li>
-            </ul>
+        <strong>Challenges and accomplishments:</strong>
+        <ul>
+          <li>
+            real time communication via AJAX and websockets utilizing the
+            Socketio framework in both Python and Javascript
+          </li>
+          <li>displaying proper timezone information based on user location</li>
+          <li>
+            storing messages and channels server side and performantly
+            displaying them
+          </li>
+          <li>responsive styling utilizing CSS Grid</li>
+          <li>deployment to Heroku</li>
+        </ul>
+      </div>
+      <hr class="lowHr" />
+      <div class="portfolioProj">
+        <h5><strong>Cheers!</strong></h5>
+        <div class="portfolioLink">
+          <a href="https://cheers-fehh.herokuapp.com" target="_blank"
+            >Link to app</a
+          ><a href="https://github.com/ian-lowe/cheers" target="_blank"
+            >Link to code</a
+          >
         </div>
-        <hr class="lowHr">
-        <div class="portfolioProj">
-            <h5><strong>Cheers!</strong></h5>
-            <div class="portfolioLink">
-                <a href="https://cheers-fehh.herokuapp.com" target="_blank">Link to app</a><a href="https://github.com/ian-lowe/cheers" target="_blank">Link to code</a>
-            </div>
-        </div>
-        <div class="projectDesc">
-            <p>Cheers! is a Single Page Web Application designed to interactively participate in the Front End Happy Hour podcast!</p>
+      </div>
+      <div class="projectDesc">
+        <p>
+          Cheers! is a Single Page Web Application designed to interactively
+          participate in the Front End Happy Hour podcast!
+        </p>
 
-            <strong>Challenges and accomplishments:</strong>
-            <ul>
-                <li>retrieving and parsing data from a thrird party API</li>
-                <li>DOM manipulation with vanilla Javascript</li>
-                <li>responsive design and cross browser testing</li>
-                <li>creation and implementation of dynamic SVG</li>
-                <li>deployment to Heroku</li>
-            </ul>
+        <strong>Challenges and accomplishments:</strong>
+        <ul>
+          <li>retrieving and parsing data from a thrird party API</li>
+          <li>DOM manipulation with vanilla Javascript</li>
+          <li>responsive design and cross browser testing</li>
+          <li>creation and implementation of dynamic SVG</li>
+          <li>deployment to Heroku</li>
+        </ul>
+      </div>
+      <hr class="lowHr" />
+      <div class="portfolioProj">
+        <h5><strong>BRC</strong></h5>
+        <div class="portfolioLink">
+          <a href="https://bookreviewcentral.herokuapp.com/" target="_blank"
+            >Link to app</a
+          ><a
+            href="https://github.com/ian-lowe/book-review-central"
+            target="_blank"
+            >Link to code</a
+          >
         </div>
-        <hr class="lowHr">
-        <div class="portfolioProj">
-            <h5><strong>BRC</strong></h5>
-            <div class="portfolioLink">
-                <a href="https://bookreviewcentral.herokuapp.com/" target="_blank">Link to app</a><a href="https://github.com/ian-lowe/book-review-central" target="_blank">Link to code</a>
-            </div>
-        </div>
-        <div class="projectDesc">
-            <p>Book review app, focusing on backend techniques such as CRUD, displaying 3rd party API data, and serving JSON data from /api.</p>
-            
-            <strong>Challenges and accomplishments:</strong>
-            <ul>
-                <li>setting up a development environment for use with Python, flask, and Postgres</li>
-                <li>gained comfort with Python, flask, and Jinja2</li>
-                <li>utilized SQL via Postgres database hosted on Heroku</li>
-                <li>hashing passwords using a library</li>
-                <li>server side input validation</li>
-                <li>UX and UI testing</li>
-                <li>deployment to Heroku</li>
-            </ul>
-            </p>
-        </div>
+      </div>
+      <div class="projectDesc">
+        <p>
+          Book review app, focusing on backend techniques such as CRUD,
+          displaying 3rd party API data, and serving JSON data from /api.
+        </p>
 
+        <strong>Challenges and accomplishments:</strong>
+        <ul>
+          <li>
+            setting up a development environment for use with Python, flask, and
+            Postgres
+          </li>
+          <li>gained comfort with Python, flask, and Jinja2</li>
+          <li>utilized SQL via Postgres database hosted on Heroku</li>
+          <li>hashing passwords using a library</li>
+          <li>server side input validation</li>
+          <li>UX and UI testing</li>
+          <li>deployment to Heroku</li>
+        </ul>
+      </div>
     </div>
 
     <div class="emptyDiv"></div>
 
     <footer>email: <a href="mailto:ilowe@mac.com">ilowe@mac.com</a></footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

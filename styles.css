@@ -1,12 +1,12 @@
 body {
-  background-color: #867A6D;
+  background-color: #867a6d;
   font-family: monospace;
   height: 100%;
   padding-top: 70px;
 }
 
 footer {
-  background-color: #343A40;
+  background-color: #343a40;
   color: #999c9f;
   width: 100%;
   bottom: 0;
@@ -70,7 +70,7 @@ footer [href] {
 .headerBox {
   height: auto;
   width: inherit;
-  background-color: #403A34;
+  background-color: #403a34;
   margin-bottom: 10px;
   display: flex;
 }
@@ -116,7 +116,7 @@ i:hover {
   height: auto;
   margin: 20px 15px 2px 15px;
   background-color: #eee6d8;
-  box-shadow: 4px 4px 0px 0px #343A40;
+  box-shadow: 4px 4px 0px 0px #343a40;
 }
 
 /* box for resume/portfolio/blog pages */
@@ -129,7 +129,7 @@ i:hover {
   padding: 15px;
   background-color: #eee6d8;
   border: 1px solid black;
-  box-shadow: 4px 4px 0px 0px #343A40;
+  box-shadow: 4px 4px 0px 0px #343a40;
 }
 
 /* general styling for links */
@@ -141,7 +141,8 @@ i:hover {
   color: #cccdcf;
 }
 
-.topHr, .lowHr {
+.topHr,
+.lowHr {
   border: 0;
   height: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -218,7 +219,8 @@ i:hover {
   font-size: 16px;
 }
 
-th, td {
+th,
+td {
   border: 1px solid black;
   padding: 5px;
 }
