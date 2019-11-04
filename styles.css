@@ -68,8 +68,7 @@ footer [href] {
 }
 /* div that contains my picture */
 .headerBox {
-  height: auto;
-  width: inherit;
+  padding: 5px;
   background-color: #403a34;
   margin-bottom: 10px;
   display: flex;
