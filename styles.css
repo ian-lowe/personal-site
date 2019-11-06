@@ -143,6 +143,11 @@ i:hover {
   color: #cccdcf;
 }
 
+.boxContainer [href]:hover,
+li [href]:hover {
+  color: #636363;
+}
+
 .topHr,
 .lowHr {
   border: 0;
