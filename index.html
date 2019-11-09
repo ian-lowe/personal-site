@@ -146,10 +146,12 @@
     ></script>
     <script>
       const bit = document.querySelector("#bit");
+      var num = 1;
       bit.addEventListener("mouseenter", function() {
         const options = ["0", "1", "bit"];
-        let num = Math.floor(Math.random() * 3);
-        bit.innerText = options[num];
+        let index = num % 3;
+        bit.innerText = options[index];
+        num++;
       });
     </script>
   </body>
