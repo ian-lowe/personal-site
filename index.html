@@ -110,7 +110,7 @@
           </ul>
         </div>
         <div class="col-lg aboutPgColum">
-          <h5>A little <span id="bit">0</span> about me..</h5>
+          <h5 id="bitSentance">A little <span id="bit">0</span> about me..</h5>
           <p class="aboutParas">
             I have a background in the hospitality industry where I earned my
             level one pin from the Court of Master Sommeliers, and was part of
@@ -146,9 +146,15 @@
     ></script>
     <script>
       const bit = document.querySelector("#bit");
-      var num = 1;
+      const bitSentance = document.querySelector("#bitSentance");
+      const options = ["0", "1", "bit"];
+      let num = 1;
       bit.addEventListener("mouseenter", function() {
-        const options = ["0", "1", "bit"];
+        let index = num % 3;
+        bit.innerText = options[index];
+        num++;
+      });
+      bitSentance.addEventListener("click", function() {
         let index = num % 3;
         bit.innerText = options[index];
         num++;
