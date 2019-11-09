@@ -110,7 +110,7 @@
           </ul>
         </div>
         <div class="col-lg aboutPgColum">
-          <h5>A little 0 about me..</h5>
+          <h5>A little <span id="bit">0</span> about me..</h5>
           <p class="aboutParas">
             I have a background in the hospitality industry where I earned my
             level one pin from the Court of Master Sommeliers, and was part of
@@ -144,5 +144,13 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script>
+      const bit = document.querySelector("#bit");
+      bit.addEventListener("mouseenter", function() {
+        const options = ["0", "1", "bit"];
+        let num = Math.floor(Math.random() * 3);
+        bit.innerText = options[num];
+      });
+    </script>
   </body>
 </html>
