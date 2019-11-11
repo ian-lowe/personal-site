@@ -125,7 +125,6 @@ i:hover {
 .boxContainer {
   width: 90%;
   max-width: 900px;
-  height: auto;
   min-height: 400px;
   margin: 10px auto 0 auto;
   padding: 15px;
@@ -297,6 +296,12 @@ td {
 
 #bit {
   color: #867a6d;
+}
+
+.portfolioCats {
+  background-color: #ffc857;
+  text-align: center;
+  box-shadow: 4px 4px 0px 0px #343a40;
 }
 
 /*# sourceMappingURL=styles.css.map */
