@@ -237,12 +237,12 @@ td {
 
 .portfolioLink {
   padding-top: 3px;
-  margin-left: 25px;
+  margin-left: 15px;
   text-decoration: underline;
 }
 
-.portfolioLink a {
-  margin-right: 16px;
+.portfolioLink a:nth-of-type(1) {
+  margin-right: 12px;
 }
 
 .projectDesc {
@@ -302,6 +302,10 @@ td {
   background-color: #ffc857;
   text-align: center;
   box-shadow: 4px 4px 0px 0px #343a40;
+}
+
+.pic-container {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
