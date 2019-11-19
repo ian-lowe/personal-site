@@ -1,5 +1,5 @@
 ## About
 
-This website acts as my technical portfolio.
+Personal website with resume and portfolio.
 
 https://ianlowe.dev
