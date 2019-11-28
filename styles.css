@@ -308,4 +308,8 @@ td {
   text-align: center;
 }
 
+.aboutParas a:hover {
+  color: #636363;
+}
+
 /*# sourceMappingURL=styles.css.map */
