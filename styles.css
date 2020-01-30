@@ -47,6 +47,7 @@ footer [href] {
     display: none;
   }
 }
+
 /* hides large screen resume header on small screens */
 @media (max-width: 667px) {
   .hideMobile {
