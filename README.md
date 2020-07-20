@@ -1,5 +1,2 @@
-## About
-
-Personal website with resume and portfolio.
-
-https://ianlowe.dev
+# snapTA
+Technical Assessment for the Snap Engineering Academy

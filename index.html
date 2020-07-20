@@ -1,169 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-151191891-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "UA-151191891-1");
-    </script>
-
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta
-      name="description"
-      content="Personal website for Los Angeles based full stack developer, Ian Lowe."
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://kit.fontawesome.com/f565cb95d6.js"></script>
-
-    <title>Ian Lowe - About Me</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Tajawal:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/hvd6vmg.css" />
+    <title>Ian Lowe - Portfolio</title>
   </head>
-
-  <body class="indexBody">
-    <nav class="navbar navbar-expand-custom navbar-dark bg-dark fixed-top">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="resume.pdf">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-        </ul>
-        <div class="navbar-item">
-          <a href="https://twitter.com/_ianlowe"
-            ><i class="fab fa-twitter"></i
-          ></a>
-          <a href="https://github.com/ian-lowe"
-            ><i class="fab fa-github"></i
-          ></a>
+  <body>
+    <div class="body-border">
+      <header>
+        <div class="mode-container">
+          <input type="checkbox" id="mode" /><label for="mode">Toggle</label>
         </div>
-      </div>
-    </nav>
-    <div class="headerBox">
-      <div class="pictureBox"></div>
-      <div class="myName">
-        <p>Ian Lowe</p>
-        <p class="aboutParas">
-          husband, dog dad, full-stack developer
-        </p>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg aboutPgColum">
-          <h5>Hello!</h5>
-          <p class="aboutParas">
-            My name is Ian. I am a full-stack developer living in Los
-            Angeles. I am passionate
-            about learning, love solving problems, and am eager and able to
-            learn any tech stack.
-          </p>
-          <p class="aboutParas aboutMe">
-            Relevant information about my projects are avaible through this
-            site, or if you would prefer, feel free to
-            <a href="resume.pdf" style="text-decoration: underline;"
-              >view my resume</a
+        <div class="links-container">
+          <div class="links">
+            <a href="./resume.pdf" target="_blank">resume</a>
+          </div>
+          <div class="links">
+            <a href="https://github.com/ian-lowe" target="_blank">github</a>
+          </div>
+          <div class="links">
+            <a
+              href="https://www.linkedin.com/in/ian-lowe-18b163180/"
+              target="_blank"
+              >linkedin</a
             >
-            or take a look through one of these links:
-          </p>
-          <ul>
-            <li><a href="https://github.com/ian-lowe">GitHub</a></li>
-            <li>
-              <a href="https://www.linkedin.com/in/ian-lowe-18b163180/"
-                >LinkedIn</a
-              >
-            </li>
-            <li>
-              <a href="https://angel.co/ian-lowe-5?public_profile=1"
-                >AngelList</a
-              >
-            </li>
-          </ul>
+          </div>
         </div>
-        <div class="col-lg aboutPgColum">
-          <h5 id="bitSentance">
-            A little <span id="bit">bit</span> about me..
-          </h5>
-          <p class="aboutParas">
-            I have a background in the hospitality industry where I earned my
-            level one pin from the Court of Master Sommeliers, and was part of
-            the opening team who helped the restaurant Vespertine to achieve the
-            number one restaurant on the late Jonathan Gold's 101 list. While
-            studying programming, I have also been helping to grow my wife's
-            business Fawn Lettering - a wedding calligraphy and invitation
-            studio which exceeded six figures in sales during its first year of
-            operation.
-          </p>
+      </header>
+      <main>
+        <!-- <div class="moon-container">
+          <div class="moon" id="sun"></div>
+        </div> -->
+        <h1>IAN LOWE</h1>
+        <div class="bio-container">
+          <div class="bio" id="bio">
+            Software Developer
+          </div>
+          <span class="blinking-cursor">|</span>
         </div>
-      </div>
+      </main>
     </div>
-
-    <div class="hiddenDivMobile"></div>
-
-    <footer>email: <a href="mailto:ilowe@mac.com">ilowe@mac.com</a></footer>
-
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      const bit = document.querySelector("#bit");
-      const bitSentance = document.querySelector("#bitSentance");
-      const options = ["bit", "0", "1"];
-      let num = 1;
-      bit.addEventListener("mouseenter", function() {
-        let index = num % 3;
-        bit.innerText = options[index];
-        num++;
-      });
-      bitSentance.addEventListener("click", function() {
-        let index = num % 3;
-        bit.innerText = options[index];
-        num++;
-      });
-    </script>
+    <script src="./scripts.js"></script>
   </body>
 </html>
