@@ -105,6 +105,10 @@ header .links {
     font-size: 18px;
     padding-top: 16px;
   }
+
+  .links:hover:after {
+    border-bottom: 3px solid rgba(var(--secondary-color), 0.3);
+  }
 }
 
 main {
