@@ -95,8 +95,8 @@ header .links {
 }
 
 .links:hover:after {
-  border-bottom: 8px solid rgba(var(--secondary-color), 0.3);
-  border-radius: 25px 0 25px 0;
+  border-bottom: 6px solid rgba(var(--secondary-color), 0.3);
+  /* border-radius: 25px 0 25px 0; */
   transition: border-bottom 0.3s;
 }
 
